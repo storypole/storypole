@@ -1,0 +1,20 @@
+{
+  "name": "@storypole/skill",
+  "version": "0.1.0",
+  "description": "A shared reference for teams building one prototype: a git-backed feature registry with owner locks, PDLC phase gates, and a generated PRD.",
+  "keywords": ["prd", "feature-registry", "prototype", "pdlc", "agent-skills", "collaboration"],
+  "author": "Saurabh Kohli <me.saurabhkohli@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "storypole": "bin/storypole.js" },
+  "files": ["bin/", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storypole/storypole.git",
+    "directory": "packages/npm"
+  },
+  "homepage": "https://github.com/storypole/storypole#readme",
+  "bugs": { "url": "https://github.com/storypole/storypole/issues" },
+  "publishConfig": { "access": "public" }
+}
